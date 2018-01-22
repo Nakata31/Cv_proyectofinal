@@ -77,7 +77,6 @@ a.offset:before {
   top: 0; left: 0;
   width: 100%; height: 100%;
   z-index: -1;
-  /* resposition with transform */
   transform: translate(5px, 5px);
   background-color: #19BC8B ;
   transition: all 800ms ease-out;
@@ -98,4 +97,17 @@ a.offset:hover:before {
   opacity: 1;
   transform: scale(1.04);
  
+}
+
+.workshow {
+  background-color: black;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  display: none;
 }
